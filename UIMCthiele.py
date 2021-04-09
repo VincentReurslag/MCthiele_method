@@ -68,7 +68,6 @@ def MCthiele(x_feed,x_bot,x_top,q,R):
         top_new = top_new.reshape([1,2])
         top_line = np.concatenate((top_line,top_new),axis = 0)
         
-        error = 0.02
         if dx > 1:
             break
     
