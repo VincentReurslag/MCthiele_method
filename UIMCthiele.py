@@ -57,8 +57,7 @@ def MCthiele(x_feed,x_bot,x_top,q,R):
     top_line = top_line.reshape([2,2])
     
     while True:
-        """computes the q-line and top-line and checks when they are almost equal by the
-        specificed error"""
+        """computes the q-line and top-line"""
         dx += 0.01
         q_new = np.array([q_start[0]-dx,q_start[1]-dx*q_slope],dtype="float")
         q_new = q_new.reshape([1,2])
