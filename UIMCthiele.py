@@ -248,18 +248,6 @@ START.grid(row = 6,column = 0,columnspan = 2)
 
 root.mainloop()
 
-#! /usr/bin/env python
-"""
-Created on Tue Dec 29 12:39:14 2020
-
-@author: Vincent Reurslag
-"""
-
-
-
-
-
-"""###################Input section####################################"""
 
 
 
